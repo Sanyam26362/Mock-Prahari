@@ -1,0 +1,10 @@
+{
+  "rootMeanSquareError": {
+    "windSpeedMps": 1.82,
+    "centralPressureHpa": 2.14,
+    "precipitationMm": 4.65
+  },
+  "anomalyCorrelationCoefficient": 0.942,
+  "brierSkillScore": 0.887,
+  "equitableThreatScore": 0.764
+}
