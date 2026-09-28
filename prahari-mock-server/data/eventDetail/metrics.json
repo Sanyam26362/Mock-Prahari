@@ -1,0 +1,26 @@
+{
+  "BOB-02": {
+    "eventId": "BOB-02",
+    "sustainedWindSpeedKmph": 135,
+    "gustSpeedKmph": 165,
+    "centralPressureHpa": 978,
+    "stormSurgePredictionMeters": 3.8,
+    "projectedRainfallAccumulationMm": 280
+  },
+  "AS-01": {
+    "eventId": "AS-01",
+    "sustainedWindSpeedKmph": 55,
+    "gustSpeedKmph": 70,
+    "centralPressureHpa": 1002,
+    "stormSurgePredictionMeters": 0.5,
+    "projectedRainfallAccumulationMm": 45
+  },
+  "NE-04": {
+    "eventId": "NE-04",
+    "sustainedWindSpeedKmph": 45,
+    "gustSpeedKmph": 60,
+    "centralPressureHpa": 1008,
+    "stormSurgePredictionMeters": 0.0,
+    "projectedRainfallAccumulationMm": 195
+  }
+}
