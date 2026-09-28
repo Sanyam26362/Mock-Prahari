@@ -1,0 +1,30 @@
+[
+  {
+    "stationId": "kolkata",
+    "product": "reflectivity",
+    "enabled": true,
+    "sourceUrl": "https://mausam.imd.gov.in/Radar/kol_maxz.gif",
+    "description": "IMD Kolkata Max(Z) Doppler Radar"
+  },
+  {
+    "stationId": "kolkata",
+    "product": "velocity",
+    "enabled": true,
+    "sourceUrl": "https://mausam.imd.gov.in/Radar/kol_ppiv.gif",
+    "description": "IMD Kolkata Radial Velocity Doppler Radar"
+  },
+  {
+    "stationId": "paradip",
+    "product": "reflectivity",
+    "enabled": true,
+    "sourceUrl": "https://mausam.imd.gov.in/Radar/prd_maxz.gif",
+    "description": "IMD Paradip Max(Z) Doppler Radar"
+  },
+  {
+    "stationId": "paradip",
+    "product": "velocity",
+    "enabled": true,
+    "sourceUrl": "https://mausam.imd.gov.in/Radar/prd_ppiv.gif",
+    "description": "IMD Paradip Radial Velocity Doppler Radar"
+  }
+]
