@@ -1,0 +1,31 @@
+{
+  "amphan-2020": {
+    "eventId": "amphan-2020",
+    "steps": [
+      {"time": "2020-05-16T00:00:00Z", "stage": "Depression", "windKmph": 55},
+      {"time": "2020-05-17T12:00:00Z", "stage": "Very Severe Cyclonic Storm", "windKmph": 140},
+      {"time": "2020-05-18T18:00:00Z", "stage": "Super Cyclone Peak", "windKmph": 260},
+      {"time": "2020-05-20T12:00:00Z", "stage": "Landfall", "windKmph": 155}
+    ]
+  },
+  "heatwave-2022": {
+    "eventId": "heatwave-2022",
+    "steps": [
+      {"time": "2022-04-25T00:00:00Z", "stage": "Onset", "temperatureC": 43.5},
+      {"time": "2022-04-28T00:00:00Z", "stage": "Peak", "temperatureC": 48.2}
+    ]
+  },
+  "mumbai-2021": {
+    "eventId": "mumbai-2021",
+    "steps": [
+      {"time": "2021-07-16T00:00:00Z", "stage": "Precipitation Surge", "rainMm": 235.0}
+    ]
+  },
+  "biparjoy-2023": {
+    "eventId": "biparjoy-2023",
+    "steps": [
+      {"time": "2023-06-06T00:00:00Z", "stage": "Genesis", "windKmph": 60},
+      {"time": "2023-06-15T14:30:00Z", "stage": "Landfall", "windKmph": 140}
+    ]
+  }
+}
