@@ -1,0 +1,26 @@
+[
+  {
+    "id": "BOB-02",
+    "name": "Cyclone BOB-02",
+    "type": "Cyclone",
+    "severity": "EXTREME",
+    "basin": "Bay of Bengal",
+    "status": "ACTIVE_TRACKING"
+  },
+  {
+    "id": "AS-01",
+    "name": "Depression AS-01",
+    "type": "Depression",
+    "severity": "MODERATE",
+    "basin": "Arabian Sea",
+    "status": "MONITORING"
+  },
+  {
+    "id": "NE-04",
+    "name": "Flash Flood Risk NE-04",
+    "type": "Heavy Rain",
+    "severity": "HIGH",
+    "basin": "Northeast India",
+    "status": "WARNING"
+  }
+]
