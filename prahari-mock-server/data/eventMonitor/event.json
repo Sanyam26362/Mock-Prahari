@@ -1,0 +1,38 @@
+{
+  "BOB-02": {
+    "id": "BOB-02",
+    "name": "Severe Cyclonic Storm BOB-02",
+    "category": "Category 3",
+    "location": {"lat": 18.4, "lon": 87.2},
+    "maxWindSpeedKmph": 135,
+    "centralPressureHpa": 978,
+    "movementDirection": "NNW",
+    "forwardSpeedKmph": 16,
+    "estimatedLandfallTime": "2026-09-30T04:00:00Z",
+    "estimatedLandfallLocation": "Odisha Coast, India"
+  },
+  "AS-01": {
+    "id": "AS-01",
+    "name": "Deep Depression AS-01",
+    "category": "Depression",
+    "location": {"lat": 15.2, "lon": 68.4},
+    "maxWindSpeedKmph": 55,
+    "centralPressureHpa": 1002,
+    "movementDirection": "WNW",
+    "forwardSpeedKmph": 12,
+    "estimatedLandfallTime": null,
+    "estimatedLandfallLocation": "Open Ocean"
+  },
+  "NE-04": {
+    "id": "NE-04",
+    "name": "Intense Mesoscale Precipitation NE-04",
+    "category": "Heavy Rain",
+    "location": {"lat": 25.8, "lon": 91.5},
+    "maxWindSpeedKmph": 45,
+    "centralPressureHpa": 1008,
+    "movementDirection": "ENE",
+    "forwardSpeedKmph": 8,
+    "estimatedLandfallTime": "2026-09-29T10:00:00Z",
+    "estimatedLandfallLocation": "Meghalaya / Assam border"
+  }
+}
