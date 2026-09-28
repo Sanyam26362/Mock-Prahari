@@ -1,0 +1,26 @@
+{
+  "BOB-02": {
+    "eventId": "BOB-02",
+    "gnnConfidenceScore": 0.94,
+    "ensembleDispersionIndex": 0.12,
+    "vorticityConvectiveCoupling": "HIGH",
+    "downscalingConvergenceResidual": 0.0034,
+    "anomalyZScore": 3.82
+  },
+  "AS-01": {
+    "eventId": "AS-01",
+    "gnnConfidenceScore": 0.81,
+    "ensembleDispersionIndex": 0.28,
+    "vorticityConvectiveCoupling": "MODERATE",
+    "downscalingConvergenceResidual": 0.0062,
+    "anomalyZScore": 1.95
+  },
+  "NE-04": {
+    "eventId": "NE-04",
+    "gnnConfidenceScore": 0.88,
+    "ensembleDispersionIndex": 0.19,
+    "vorticityConvectiveCoupling": "VERY_HIGH",
+    "downscalingConvergenceResidual": 0.0041,
+    "anomalyZScore": 2.74
+  }
+}
