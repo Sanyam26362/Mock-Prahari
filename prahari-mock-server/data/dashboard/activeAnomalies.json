@@ -1,0 +1,11 @@
+[
+  {
+    "id": "BOB-02",
+    "name": "Cyclone BOB-02",
+    "category": "Severe Cyclonic Storm",
+    "center": {"lat": 18.4, "lon": 87.2},
+    "maxWindKmph": 135,
+    "centralPressureHpa": 978,
+    "status": "TRACKING"
+  }
+]
