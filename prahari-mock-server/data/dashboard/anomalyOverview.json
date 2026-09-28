@@ -1,0 +1,9 @@
+{
+  "totalAnomalies": 3,
+  "extremeForecastIndexThreshold": 0.85,
+  "anomalies": [
+    {"id": "BOB-02", "type": "Cyclone", "severity": "EXTREME", "location": "Bay of Bengal"},
+    {"id": "AS-01", "type": "Depression", "severity": "MODERATE", "location": "Arabian Sea"},
+    {"id": "NE-04", "type": "Heavy Rain", "severity": "HIGH", "location": "Northeast India"}
+  ]
+}
