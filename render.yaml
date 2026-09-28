@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: prahari-mock-server
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: bash start.sh
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: MOCK_LATENCY
+        value: "true"
+      - key: MOCK_LATENCY_MIN_MS
+        value: "150"
+      - key: MOCK_LATENCY_MAX_MS
+        value: "450"
