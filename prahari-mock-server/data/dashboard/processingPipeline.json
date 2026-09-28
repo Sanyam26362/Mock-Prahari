@@ -1,0 +1,9 @@
+{
+  "stages": [
+    {"name": "GNN Spherical Tracking", "status": "COMPLETED", "executionTimeMs": 145},
+    {"name": "EFI Anomaly Bounding", "status": "COMPLETED", "executionTimeMs": 82},
+    {"name": "Diffusion Downscaling 5km", "status": "COMPLETED", "executionTimeMs": 310},
+    {"name": "CAP Alert Dispatch", "status": "IDLE", "executionTimeMs": 12}
+  ],
+  "totalLatencyMs": 549
+}
