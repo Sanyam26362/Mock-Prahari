@@ -1,0 +1,23 @@
+{
+  "BOB-02": {
+    "eventId": "BOB-02",
+    "synopsis": "Cyclone BOB-02 is tracking north-northwestward over the west-central Bay of Bengal with intensifying core convection.",
+    "threatCategory": "EXTREME",
+    "evacuationPriority": "HIGH",
+    "monitoredSince": "2026-09-26T18:00:00Z"
+  },
+  "AS-01": {
+    "eventId": "AS-01",
+    "synopsis": "Depression AS-01 remains slow-moving with low threat to coastal settlements.",
+    "threatCategory": "MODERATE",
+    "evacuationPriority": "NONE",
+    "monitoredSince": "2026-09-28T00:00:00Z"
+  },
+  "NE-04": {
+    "eventId": "NE-04",
+    "synopsis": "Orographic uplift is generating localized intense convective rain bands causing river level spikes.",
+    "threatCategory": "HIGH",
+    "evacuationPriority": "MODERATE",
+    "monitoredSince": "2026-09-28T04:00:00Z"
+  }
+}
