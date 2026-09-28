@@ -1,0 +1,8 @@
+{
+  "forecastOrigin": "2026-09-28T00:00:00Z",
+  "timesteps": [
+    {"stepHours": 24, "validTime": "2026-09-29T00:00:00Z", "confidence": 0.94},
+    {"stepHours": 48, "validTime": "2026-09-30T00:00:00Z", "confidence": 0.89},
+    {"stepHours": 72, "validTime": "2026-10-01T00:00:00Z", "confidence": 0.82}
+  ]
+}
