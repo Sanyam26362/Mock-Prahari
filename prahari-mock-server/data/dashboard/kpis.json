@@ -1,0 +1,7 @@
+{
+  "activeStormCells": 3,
+  "highRiskPopulationMillions": 4.82,
+  "gridCellsDownscaled": 14200,
+  "downscaleLatencyMs": 340,
+  "spatialResolutionGain": "2.4x"
+}
