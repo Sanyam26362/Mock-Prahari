@@ -1,0 +1,26 @@
+[
+  {
+    "id": "kolkata",
+    "name": "Kolkata (Subhash Chandra Bose AP)",
+    "latitude": 22.65,
+    "longitude": 88.45,
+    "rangeKm": 250,
+    "products": ["reflectivity", "velocity"]
+  },
+  {
+    "id": "paradip",
+    "name": "Paradip Port",
+    "latitude": 20.31,
+    "longitude": 86.61,
+    "rangeKm": 250,
+    "products": ["reflectivity", "velocity"]
+  },
+  {
+    "id": "agartala",
+    "name": "Agartala",
+    "latitude": 23.88,
+    "longitude": 91.24,
+    "rangeKm": 250,
+    "products": ["reflectivity"]
+  }
+]
