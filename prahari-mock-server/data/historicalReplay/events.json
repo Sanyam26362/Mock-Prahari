@@ -1,0 +1,34 @@
+[
+  {
+    "id": "amphan-2020",
+    "name": "Super Cyclone Amphan (2020)",
+    "category": "Super Cyclonic Storm",
+    "year": 2020,
+    "basin": "Bay of Bengal",
+    "peakIntensityKmph": 260
+  },
+  {
+    "id": "heatwave-2022",
+    "name": "Northwest India Severe Heatwave (2022)",
+    "category": "Extreme Heatwave",
+    "year": 2022,
+    "basin": "Northwest India Plains",
+    "peakIntensityKmph": 0
+  },
+  {
+    "id": "mumbai-2021",
+    "name": "Extreme Precipitation & Urban Deluge Mumbai (2021)",
+    "category": "Cloudburst / Extreme Rain",
+    "year": 2021,
+    "basin": "West Coast",
+    "peakIntensityKmph": 60
+  },
+  {
+    "id": "biparjoy-2023",
+    "name": "Extremely Severe Cyclonic Storm Biparjoy (2023)",
+    "category": "Extremely Severe Cyclonic Storm",
+    "year": 2023,
+    "basin": "Arabian Sea",
+    "peakIntensityKmph": 165
+  }
+]
