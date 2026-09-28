@@ -1,0 +1,42 @@
+{
+  "amphan-2020": {
+    "id": "amphan-2020",
+    "name": "Super Cyclone Amphan",
+    "year": 2020,
+    "landfallLocation": "Bakkhali, West Bengal",
+    "landfallDate": "2020-05-20T12:00:00Z",
+    "maxWindKmph": 260,
+    "minPressureHpa": 920,
+    "damageCategory": "Catastrophic"
+  },
+  "heatwave-2022": {
+    "id": "heatwave-2022",
+    "name": "Northwest India Severe Heatwave",
+    "year": 2022,
+    "landfallLocation": "Delhi, Rajasthan, Haryana",
+    "landfallDate": "2022-04-28T00:00:00Z",
+    "maxWindKmph": 25,
+    "minPressureHpa": 1004,
+    "damageCategory": "Severe"
+  },
+  "mumbai-2021": {
+    "id": "mumbai-2021",
+    "name": "Mumbai Urban Deluge 2021",
+    "year": 2021,
+    "landfallLocation": "Mumbai Metropolitan Region",
+    "landfallDate": "2021-07-16T18:00:00Z",
+    "maxWindKmph": 65,
+    "minPressureHpa": 998,
+    "damageCategory": "High"
+  },
+  "biparjoy-2023": {
+    "id": "biparjoy-2023",
+    "name": "Cyclone Biparjoy",
+    "year": 2023,
+    "landfallLocation": "Jakhau Port, Gujarat",
+    "landfallDate": "2023-06-15T14:30:00Z",
+    "maxWindKmph": 165,
+    "minPressureHpa": 958,
+    "damageCategory": "Very High"
+  }
+}
