@@ -1,0 +1,9 @@
+{
+  "pipelineStatus": "OPERATIONAL",
+  "activeModel": "GNN-Diffusion-v2.4",
+  "inputResolutionKm": 12,
+  "downscaledResolutionKm": 5,
+  "lastIngestTime": "2026-09-28T06:00:00Z",
+  "activeAnomaliesCount": 3,
+  "systemHealth": "OPTIMAL"
+}
