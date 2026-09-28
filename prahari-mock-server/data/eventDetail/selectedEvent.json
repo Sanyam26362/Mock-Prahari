@@ -1,0 +1,29 @@
+{
+  "BOB-02": {
+    "id": "BOB-02",
+    "title": "Severe Cyclonic Storm BOB-02",
+    "basin": "Bay of Bengal",
+    "classification": "Severe Cyclonic Storm (IMD scale)",
+    "currentCoordinates": {"lat": 18.4, "lon": 87.2},
+    "projectedLandfall": "2026-09-30T04:00:00Z",
+    "affectedDistricts": ["Puri", "Jagatsinghpur", "Kendrapara", "Bhadrak", "Balasore"]
+  },
+  "AS-01": {
+    "id": "AS-01",
+    "title": "Deep Depression AS-01",
+    "basin": "Arabian Sea",
+    "classification": "Deep Depression",
+    "currentCoordinates": {"lat": 15.2, "lon": 68.4},
+    "projectedLandfall": null,
+    "affectedDistricts": ["Deep Sea Marine Zones"]
+  },
+  "NE-04": {
+    "id": "NE-04",
+    "title": "Mesoscale Heavy Precipitation NE-04",
+    "basin": "Northeast India",
+    "classification": "Flash Flood & Cloudburst Alert",
+    "currentCoordinates": {"lat": 25.8, "lon": 91.5},
+    "projectedLandfall": "2026-09-29T10:00:00Z",
+    "affectedDistricts": ["East Khasi Hills", "Kamrup Metro"]
+  }
+}
