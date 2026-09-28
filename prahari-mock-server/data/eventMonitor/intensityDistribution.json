@@ -1,0 +1,31 @@
+{
+  "BOB-02": {
+    "eventId": "BOB-02",
+    "probabilityBins": [
+      {"category": "Depression", "probability": 0.01},
+      {"category": "Deep Depression", "probability": 0.04},
+      {"category": "Cyclonic Storm", "probability": 0.15},
+      {"category": "Severe Cyclonic Storm", "probability": 0.65},
+      {"category": "Very Severe Cyclonic Storm", "probability": 0.15}
+    ],
+    "peakIntensityForecastKmph": 150
+  },
+  "AS-01": {
+    "eventId": "AS-01",
+    "probabilityBins": [
+      {"category": "Depression", "probability": 0.70},
+      {"category": "Deep Depression", "probability": 0.25},
+      {"category": "Cyclonic Storm", "probability": 0.05}
+    ],
+    "peakIntensityForecastKmph": 65
+  },
+  "NE-04": {
+    "eventId": "NE-04",
+    "probabilityBins": [
+      {"category": "Moderate Rain", "probability": 0.10},
+      {"category": "Heavy Rain", "probability": 0.60},
+      {"category": "Extremely Heavy Rain", "probability": 0.30}
+    ],
+    "peakIntensityForecastKmph": 55
+  }
+}
