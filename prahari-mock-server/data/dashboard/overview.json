@@ -1,0 +1,7 @@
+{
+  "monitoredBasins": ["Bay of Bengal", "Arabian Sea", "North India Plains"],
+  "currentThreatLevel": "HIGH",
+  "primaryThreat": "Severe Cyclonic Storm (BOB-02)",
+  "forecastWindowDays": 7,
+  "lastUpdated": "2026-09-28T12:00:00Z"
+}
