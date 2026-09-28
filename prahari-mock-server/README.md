@@ -1,3 +1,13 @@
+---
+title: Prahari Extreme Weather Intelligence API
+emoji: 🌪️
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # Prahari: Extreme Weather Intelligence
 ### High-Resolution Extreme Weather Forecasting & Early Warning Platform
 **Smart India Hackathon (SIH 2026) | Problem Statement: PS 26078**
