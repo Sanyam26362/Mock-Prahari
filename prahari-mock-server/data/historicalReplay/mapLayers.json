@@ -1,0 +1,28 @@
+{
+  "amphan-2020": {
+    "eventId": "amphan-2020",
+    "layers": [
+      {"id": "radar_reflectivity_composite", "name": "Doppler Composite (dBZ)", "opacity": 0.8},
+      {"id": "diffusion_wind_vectors", "name": "GNN Surface Wind Vectors", "opacity": 0.9},
+      {"id": "coastal_inundation_risk", "name": "Surge Inundation Mask", "opacity": 0.75}
+    ]
+  },
+  "heatwave-2022": {
+    "eventId": "heatwave-2022",
+    "layers": [
+      {"id": "surface_temp_anomaly", "name": "2m Temperature Anomaly", "opacity": 0.85}
+    ]
+  },
+  "mumbai-2021": {
+    "eventId": "mumbai-2021",
+    "layers": [
+      {"id": "urban_flood_depth", "name": "Hydrodynamic Inundation", "opacity": 0.8}
+    ]
+  },
+  "biparjoy-2023": {
+    "eventId": "biparjoy-2023",
+    "layers": [
+      {"id": "satellite_ir_band", "name": "INSAT-3D Thermal IR", "opacity": 0.85}
+    ]
+  }
+}
