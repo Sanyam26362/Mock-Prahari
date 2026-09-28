@@ -1,0 +1,8 @@
+{
+  "activeModelVersion": "GNN-Diffusion-v2.4",
+  "operationalSince": "2026-08-15T00:00:00Z",
+  "totalInferenceRuns": 12840,
+  "averageLatencyMs": 340,
+  "ensembleSpread": 0.14,
+  "status": "OPERATIONAL"
+}
