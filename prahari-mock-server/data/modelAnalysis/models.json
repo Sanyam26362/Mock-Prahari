@@ -1,0 +1,18 @@
+[
+  {
+    "id": "gnn-diff-v2.4",
+    "name": "GNN Spherical Diffusion v2.4",
+    "type": "Graph Neural Network + Diffusion",
+    "resolutionKm": 5,
+    "leadTimeHours": 168,
+    "status": "ACTIVE_PRODUCTION"
+  },
+  {
+    "id": "efi-transformer-v1.8",
+    "name": "Extreme Forecast Index Transformer",
+    "type": "Spatial-Temporal Transformer",
+    "resolutionKm": 12,
+    "leadTimeHours": 240,
+    "status": "STANDBY"
+  }
+]
