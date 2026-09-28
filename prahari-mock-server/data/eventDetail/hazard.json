@@ -1,0 +1,23 @@
+{
+  "BOB-02": {
+    "eventId": "BOB-02",
+    "windHazardLevel": "EXTREME",
+    "stormSurgeHazardLevel": "VERY_HIGH",
+    "inundationRiskZones": ["Kendrapada", "Jagatsinghpur"],
+    "infrastructureAtRisk": ["Paradip Port Operations", "Coastal Power Transmission Lines"]
+  },
+  "AS-01": {
+    "eventId": "AS-01",
+    "windHazardLevel": "LOW",
+    "stormSurgeHazardLevel": "LOW",
+    "inundationRiskZones": [],
+    "infrastructureAtRisk": []
+  },
+  "NE-04": {
+    "eventId": "NE-04",
+    "windHazardLevel": "MODERATE",
+    "stormSurgeHazardLevel": "NONE",
+    "inundationRiskZones": ["Barak Valley Lowlands", "Guwahati Flash Drain Basins"],
+    "infrastructureAtRisk": ["National Highway 6 Bridge Approaches"]
+  }
+}
