@@ -1,0 +1,33 @@
+{
+  "pipelineId": "prahari-operational-pipeline-prod",
+  "stages": [
+    {
+      "stageNumber": 1,
+      "name": "Atmospheric Ingestion & Graph Construction",
+      "status": "HEALTHY",
+      "inputData": "NCMRWF & IMD NetCDF feeds",
+      "executionLatencyMs": 110
+    },
+    {
+      "stageNumber": 2,
+      "name": "Spherical GNN Trajectory Forecast",
+      "status": "HEALTHY",
+      "inputData": "Pressure level tensor (12km)",
+      "executionLatencyMs": 145
+    },
+    {
+      "stageNumber": 3,
+      "name": "Diffusion Super-Resolution Downscaling",
+      "status": "HEALTHY",
+      "inputData": "12km latent grid to 5km terrain-aware field",
+      "executionLatencyMs": 310
+    },
+    {
+      "stageNumber": 4,
+      "name": "CAP Risk Synthesis & Polygon Bounding",
+      "status": "HEALTHY",
+      "inputData": "Wind speed, precipitation & storm surge exceedances",
+      "executionLatencyMs": 45
+    }
+  ]
+}
