@@ -1,0 +1,17 @@
+[
+  {
+    "id": "gnn-vs-numerical",
+    "name": "Prahari GNN vs Operational IMD-GFS",
+    "description": "Compares 5km GNN-Diffusion forecast against 12km operational numerical baseline."
+  },
+  {
+    "id": "downscaled-vs-coarse",
+    "name": "Terrain-Downscaled 5km vs 25km Raw ERA5",
+    "description": "Highlights local topography-induced precipitation and localized wind peaks."
+  },
+  {
+    "id": "lead-time-sensitivity",
+    "name": "72h Lead-Time vs 24h Landfall Verification",
+    "description": "Visualizes forecast stability across successive lead-time runs."
+  }
+]
