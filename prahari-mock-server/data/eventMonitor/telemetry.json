@@ -1,0 +1,29 @@
+{
+  "BOB-02": {
+    "eventId": "BOB-02",
+    "currentWindSpeedMps": 37.5,
+    "gustSpeedMps": 46.2,
+    "surfacePressureHpa": 978.2,
+    "seaSurfaceTemperatureCelsius": 29.8,
+    "verticalWindShearKnots": 11.2,
+    "lastTelemetrySync": "2026-09-28T16:00:00Z"
+  },
+  "AS-01": {
+    "eventId": "AS-01",
+    "currentWindSpeedMps": 15.3,
+    "gustSpeedMps": 19.4,
+    "surfacePressureHpa": 1002.5,
+    "seaSurfaceTemperatureCelsius": 28.4,
+    "verticalWindShearKnots": 18.0,
+    "lastTelemetrySync": "2026-09-28T16:00:00Z"
+  },
+  "NE-04": {
+    "eventId": "NE-04",
+    "currentWindSpeedMps": 12.5,
+    "gustSpeedMps": 16.0,
+    "surfacePressureHpa": 1008.0,
+    "seaSurfaceTemperatureCelsius": 0,
+    "verticalWindShearKnots": 8.0,
+    "lastTelemetrySync": "2026-09-28T16:00:00Z"
+  }
+}
