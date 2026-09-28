@@ -1,0 +1,20 @@
+[
+  {
+    "id": "BOB-02",
+    "title": "Severe Cyclonic Storm BOB-02",
+    "region": "Bay of Bengal",
+    "threatLevel": "CRITICAL"
+  },
+  {
+    "id": "AS-01",
+    "title": "Deep Depression AS-01",
+    "region": "Arabian Sea",
+    "threatLevel": "WATCH"
+  },
+  {
+    "id": "NE-04",
+    "title": "Mesoscale Heavy Precipitation NE-04",
+    "region": "Northeast India",
+    "threatLevel": "WARNING"
+  }
+]
