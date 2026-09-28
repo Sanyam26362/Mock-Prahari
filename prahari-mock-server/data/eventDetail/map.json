@@ -1,0 +1,31 @@
+{
+  "BOB-02": {
+    "eventId": "BOB-02",
+    "center": {"lat": 18.4, "lon": 87.2},
+    "zoomLevel": 7,
+    "coneOfUncertainty": [
+      {"stepHours": 12, "centerLat": 19.5, "centerLon": 86.8, "radiusKm": 25},
+      {"stepHours": 24, "centerLat": 20.3, "centerLon": 86.4, "radiusKm": 45},
+      {"stepHours": 48, "centerLat": 21.2, "centerLon": 86.1, "radiusKm": 75}
+    ],
+    "radarOverlayUrl": "/api/radar/visakhapatnam/latest"
+  },
+  "AS-01": {
+    "eventId": "AS-01",
+    "center": {"lat": 15.2, "lon": 68.4},
+    "zoomLevel": 6,
+    "coneOfUncertainty": [
+      {"stepHours": 24, "centerLat": 16.0, "centerLon": 67.5, "radiusKm": 50}
+    ],
+    "radarOverlayUrl": "/api/radar/goa/latest"
+  },
+  "NE-04": {
+    "eventId": "NE-04",
+    "center": {"lat": 25.8, "lon": 91.5},
+    "zoomLevel": 8,
+    "coneOfUncertainty": [
+      {"stepHours": 12, "centerLat": 26.2, "centerLon": 92.1, "radiusKm": 30}
+    ],
+    "radarOverlayUrl": "/api/radar/shillong/latest"
+  }
+}
