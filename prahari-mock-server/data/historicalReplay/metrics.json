@@ -1,0 +1,26 @@
+{
+  "amphan-2020": {
+    "eventId": "amphan-2020",
+    "landfallTrackErrorKm": 18.2,
+    "landfallTimeErrorHours": 1.5,
+    "intensityRmseKmph": 8.4,
+    "prahariSkillScoreVsOperational": 0.36
+  },
+  "heatwave-2022": {
+    "eventId": "heatwave-2022",
+    "temperatureRmseCelsius": 0.92,
+    "prahariSkillScoreVsOperational": 0.28
+  },
+  "mumbai-2021": {
+    "eventId": "mumbai-2021",
+    "precipitationCorrelation": 0.91,
+    "prahariSkillScoreVsOperational": 0.42
+  },
+  "biparjoy-2023": {
+    "eventId": "biparjoy-2023",
+    "landfallTrackErrorKm": 14.6,
+    "landfallTimeErrorHours": 0.8,
+    "intensityRmseKmph": 6.8,
+    "prahariSkillScoreVsOperational": 0.39
+  }
+}
