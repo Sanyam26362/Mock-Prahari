@@ -1,0 +1,27 @@
+{
+  "amphan-2020": {
+    "eventId": "amphan-2020",
+    "stormSurgeHeightMeters": 4.5,
+    "inundationAreaSqKm": 1240,
+    "windSwathRadiusKm": 180,
+    "severeDamagePolygonCoordinates": [
+      [88.0, 21.5], [88.8, 21.5], [89.1, 22.5], [88.2, 22.6], [88.0, 21.5]
+    ]
+  },
+  "heatwave-2022": {
+    "eventId": "heatwave-2022",
+    "heatIndexCelsius": 52.4,
+    "excessMortalityRiskZone": "Extreme"
+  },
+  "mumbai-2021": {
+    "eventId": "mumbai-2021",
+    "floodedSubCatchments": ["Mithi River", "Dahisar River"],
+    "inundationDepthMeters": 1.4
+  },
+  "biparjoy-2023": {
+    "eventId": "biparjoy-2023",
+    "stormSurgeHeightMeters": 3.2,
+    "inundationAreaSqKm": 680,
+    "windSwathRadiusKm": 120
+  }
+}
