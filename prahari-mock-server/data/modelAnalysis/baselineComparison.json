@@ -1,0 +1,7 @@
+{
+  "baselineModel": "ECMWF-HRES / IMD-GFS 12km",
+  "downscalingGain": "2.4x Spatial Resolution (12km -> 5km)",
+  "inferenceSpeedup": "18.5x faster than numerical ensemble",
+  "energyEfficiencyGain": "92% compute power reduction",
+  "trackAccuracyImprovementPercent": 34.8
+}
