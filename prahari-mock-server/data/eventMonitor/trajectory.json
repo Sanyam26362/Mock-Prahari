@@ -1,0 +1,33 @@
+{
+  "BOB-02": {
+    "eventId": "BOB-02",
+    "historicalWaypoints": [
+      {"timestamp": "2026-09-27T00:00:00Z", "lat": 15.6, "lon": 88.5, "windKmph": 85},
+      {"timestamp": "2026-09-27T12:00:00Z", "lat": 16.9, "lon": 87.9, "windKmph": 110},
+      {"timestamp": "2026-09-28T00:00:00Z", "lat": 18.4, "lon": 87.2, "windKmph": 135}
+    ],
+    "forecastWaypoints": [
+      {"timestamp": "2026-09-28T12:00:00Z", "lat": 19.5, "lon": 86.8, "windKmph": 145, "coneRadiusKm": 25},
+      {"timestamp": "2026-09-29T00:00:00Z", "lat": 20.3, "lon": 86.4, "windKmph": 150, "coneRadiusKm": 45},
+      {"timestamp": "2026-09-30T00:00:00Z", "lat": 21.2, "lon": 86.1, "windKmph": 120, "coneRadiusKm": 75}
+    ]
+  },
+  "AS-01": {
+    "eventId": "AS-01",
+    "historicalWaypoints": [
+      {"timestamp": "2026-09-28T00:00:00Z", "lat": 15.2, "lon": 68.4, "windKmph": 55}
+    ],
+    "forecastWaypoints": [
+      {"timestamp": "2026-09-29T00:00:00Z", "lat": 16.0, "lon": 67.5, "windKmph": 60, "coneRadiusKm": 50}
+    ]
+  },
+  "NE-04": {
+    "eventId": "NE-04",
+    "historicalWaypoints": [
+      {"timestamp": "2026-09-28T00:00:00Z", "lat": 25.8, "lon": 91.5, "windKmph": 45}
+    ],
+    "forecastWaypoints": [
+      {"timestamp": "2026-09-29T00:00:00Z", "lat": 26.2, "lon": 92.1, "windKmph": 50, "coneRadiusKm": 30}
+    ]
+  }
+}
