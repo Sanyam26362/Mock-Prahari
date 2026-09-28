@@ -1,0 +1,9 @@
+{
+  "lastVerificationTimestamp": "2026-09-28T06:00:00Z",
+  "verificationSource": "IMD AWS & DWR Ground Truth",
+  "trackError24hKm": 34.2,
+  "trackError48hKm": 68.7,
+  "trackError72hKm": 112.4,
+  "falseAlarmRate": 0.062,
+  "probabilityOfDetection": 0.938
+}
