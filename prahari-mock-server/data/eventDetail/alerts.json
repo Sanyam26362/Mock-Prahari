@@ -1,0 +1,48 @@
+{
+  "BOB-02": [
+    {
+      "alert_id": "CAP-IN-OD-2026-0091",
+      "urgency_level": "Immediate",
+      "severity_level": "Extreme",
+      "certainty_code": "Observed",
+      "event_code": "CYC",
+      "headline": "Red Alert: Severe Cyclone Warning for Coastal Odisha",
+      "area_description": "Kendrapada, Jagatsinghpur, Bhadrak coastal districts",
+      "instruction": "Initiate evacuation of low-lying flood-prone zones immediately."
+    },
+    {
+      "alert_id": "CAP-IN-WB-2026-0084",
+      "urgency_level": "Expected",
+      "severity_level": "Severe",
+      "certainty_code": "Likely",
+      "event_code": "SURGE",
+      "headline": "Orange Alert: Coastal Surge Advisory for South 24 Parganas",
+      "area_description": "Sundarbans and Digha coastline",
+      "instruction": "Secure fishing boats and reinforce embankments."
+    }
+  ],
+  "AS-01": [
+    {
+      "alert_id": "CAP-IN-AR-2026-0042",
+      "urgency_level": "Expected",
+      "severity_level": "Moderate",
+      "certainty_code": "Likely",
+      "event_code": "DEP",
+      "headline": "Yellow Watch: Fishermen Advisory for Arabian Sea",
+      "area_description": "Central and South Arabian Sea",
+      "instruction": "Fishermen are advised not to venture into deep sea."
+    }
+  ],
+  "NE-04": [
+    {
+      "alert_id": "CAP-IN-AS-2026-0115",
+      "urgency_level": "Immediate",
+      "severity_level": "Severe",
+      "certainty_code": "Observed",
+      "event_code": "FL",
+      "headline": "Orange Alert: Flash Flood & Landslide Warning",
+      "area_description": "East Khasi Hills and Kamrup Metro",
+      "instruction": "Avoid hilly roads and river banks."
+    }
+  ]
+}
