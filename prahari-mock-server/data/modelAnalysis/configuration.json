@@ -1,0 +1,10 @@
+{
+  "inputResolutionKm": 12,
+  "outputResolutionKm": 5,
+  "temporalStepHours": 3,
+  "maxLeadTimeHours": 168,
+  "ensembleMembers": 20,
+  "diffusionSteps": 50,
+  "sphericalMeshLevels": 6,
+  "hardwareTarget": "NVIDIA H100 80GB SXM5"
+}
