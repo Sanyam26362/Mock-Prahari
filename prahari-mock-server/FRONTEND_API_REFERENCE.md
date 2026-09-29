@@ -225,7 +225,9 @@ export interface DashboardOverviewResponse {
   "highRiskPopulationMillions": 4.82,
   "gridCellsDownscaled": 14200,
   "downscaleLatencyMs": 340,
-  "spatialResolutionGain": "2.4x"
+  "spatialResolutionGain": "2.4x",
+  "nextCriticalWindow": "T+36h",
+  "areasAtRisk": 7
 }
 ```
 
@@ -234,12 +236,13 @@ export interface DashboardOverviewResponse {
 **TypeScript Interface:**
 ```typescript
 export interface DashboardKPIsResponse {
-  forecastResolutionKm: number;
-  leadTimeHours: number;
-  trackError24hKm: number;
-  intensityRmseKnots: number;
-  activeAlertCount: number;
-  radarCoveragePercentage: number;
+  activeStormCells: number;
+  highRiskPopulationMillions: number;
+  gridCellsDownscaled: number;
+  downscaleLatencyMs: number;
+  spatialResolutionGain: string;
+  nextCriticalWindow: string;
+  areasAtRisk: number;
 }
 ```
 
@@ -315,30 +318,76 @@ export interface AnomalyOverviewResponse {
 [
   {
     "id": "BOB-02",
-    "name": "Cyclone BOB-02",
-    "category": "Severe Cyclonic Storm",
+    "name": "Severe Cyclonic Storm BOB-02",
+    "category": "Cyclone",
+    "severity": "EXTREME",
     "center": {
       "lat": 18.4,
       "lon": 87.2
     },
+    "region": "Odisha",
+    "basin": "Bay of Bengal",
+    "forecastLeadTimeHours": 48,
     "maxWindKmph": 135,
     "centralPressureHpa": 978,
     "status": "TRACKING"
+  },
+  {
+    "id": "AS-01",
+    "name": "Deep Depression AS-01",
+    "category": "Depression",
+    "severity": "MODERATE",
+    "center": {
+      "lat": 15.2,
+      "lon": 68.5
+    },
+    "region": "Gujarat Coast",
+    "basin": "Arabian Sea",
+    "forecastLeadTimeHours": 24,
+    "maxWindKmph": 65,
+    "centralPressureHpa": 998,
+    "status": "MONITORING"
+  },
+  {
+    "id": "NE-04",
+    "name": "Flash Flood & Cloudburst NE-04",
+    "category": "Heavy Rain",
+    "severity": "HIGH",
+    "center": {
+      "lat": 26.1,
+      "lon": 91.7
+    },
+    "region": "Assam",
+    "basin": "Brahmaputra Basin",
+    "forecastLeadTimeHours": 36,
+    "maxWindKmph": 55,
+    "centralPressureHpa": 1004,
+    "status": "ALERT"
   }
 ]
 ```
 
-**Frontend Usage:** Active Anomalies table or scrollable alert cards on the dashboard overview.
+**Frontend Usage:** Active Anomalies table or scrollable alert cards on the dashboard overview, and dynamic map filter controls.
 
 **TypeScript Interface:**
 ```typescript
+export interface AnomalyCenter {
+  lat: number;
+  lon: number;
+}
+
 export interface AnomalyItem {
   id: string;
-  type: string;
+  name: string;
+  category: string;
+  severity: 'EXTREME' | 'HIGH' | 'MODERATE' | 'LOW';
+  center: AnomalyCenter;
   region: string;
-  severity: 'CRITICAL' | 'HIGH' | 'MODERATE' | 'LOW';
-  coordinates: [number, number];
-  efiValue: number;
+  basin: string;
+  forecastLeadTimeHours: number;
+  maxWindKmph: number;
+  centralPressureHpa: number;
+  status: 'TRACKING' | 'MONITORING' | 'ALERT' | string;
 }
 
 export type ActiveAnomaliesResponse = AnomalyItem[];
