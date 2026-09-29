@@ -217,16 +217,18 @@ All 7 test suites executed and passed with 0 failures:
 
 - **Git Remote:** `origin` (`https://github.com/Sanyam26362/Mock-Prahari.git`)
 - **Target Branch:** `main`
-- **Commit SHA:** `002bdcb8773fc4e65ba02c5a8ce4d2c79ef90115`
-- **Short SHA:** `002bdcb`
-- **Commit Subject:** `feat(dashboard): extend kpis with critical window and enrich active anomalies with map filter fields`
+- **Primary Feature Commit SHA:** `002bdcb8773fc4e65ba02c5a8ce4d2c79ef90115` (`002bdcb`)
+- **Primary Feature Commit Subject:** `feat(dashboard): extend kpis with critical window and enrich active anomalies with map filter fields`
 - **Files Committed:**
   1. `data/dashboard/kpis.json`
   2. `data/dashboard/activeAnomalies.json`
   3. `tests/test_dashboard_update.py`
-- **Push Output:**
+- **Feature Push Output:**
   ```
   To https://github.com/Sanyam26362/Mock-Prahari.git
      18f2ff7..002bdcb  main -> main
   ```
+- **Documentation & Station Hardening Commits:**
+  - `9fef1ab`: `docs: add dashboard metrics update report and align frontend API reference`
+  - `09dd478`: `chore(radar): add .gitkeep for agartala reflectivity station directory`
 - **Redeployment Trigger:** Render Git webhook automatically triggered build and native Python deployment for service `prahari-mock-server`.
