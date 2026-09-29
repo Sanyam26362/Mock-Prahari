@@ -1,11 +1,50 @@
 [
   {
     "id": "BOB-02",
-    "name": "Cyclone BOB-02",
-    "category": "Severe Cyclonic Storm",
-    "center": {"lat": 18.4, "lon": 87.2},
+    "name": "Severe Cyclonic Storm BOB-02",
+    "category": "Cyclone",
+    "severity": "EXTREME",
+    "center": {
+      "lat": 18.4,
+      "lon": 87.2
+    },
+    "region": "Odisha",
+    "basin": "Bay of Bengal",
+    "forecastLeadTimeHours": 48,
     "maxWindKmph": 135,
     "centralPressureHpa": 978,
     "status": "TRACKING"
+  },
+  {
+    "id": "AS-01",
+    "name": "Deep Depression AS-01",
+    "category": "Depression",
+    "severity": "MODERATE",
+    "center": {
+      "lat": 15.2,
+      "lon": 68.5
+    },
+    "region": "Gujarat Coast",
+    "basin": "Arabian Sea",
+    "forecastLeadTimeHours": 24,
+    "maxWindKmph": 65,
+    "centralPressureHpa": 998,
+    "status": "MONITORING"
+  },
+  {
+    "id": "NE-04",
+    "name": "Flash Flood & Cloudburst NE-04",
+    "category": "Heavy Rain",
+    "severity": "HIGH",
+    "center": {
+      "lat": 26.1,
+      "lon": 91.7
+    },
+    "region": "Assam",
+    "basin": "Brahmaputra Basin",
+    "forecastLeadTimeHours": 36,
+    "maxWindKmph": 55,
+    "centralPressureHpa": 1004,
+    "status": "ALERT"
   }
 ]
